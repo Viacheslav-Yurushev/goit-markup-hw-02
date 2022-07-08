@@ -1,16 +1,159 @@
 :root {
   --primery-bgc: #ffffff;
   --primery-text-color: #757575;
-  --secondary-bgc: #f5f4fa;
+  --secondary-text-color: #212121;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
 body {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
+/* -----HEADER---- */
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+.logo-studio {
+  color: #000000;
+}
+.menu {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--secondary-text-color);
 }
+.menu:hover,
+.menu:focus {
+  color: #2196f3;
+}
+.head-contacks {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
+}
+.head-contacks:hover,
+.head-contacks:focus {
+  color: #2196f3;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+/* -----/HEADER---- */
+/* ----HERO---- */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
+}
+/* ----/HERO---- */
+
+/* ----Преимущества компании ---- */
+
+.quality-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.quality-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* ----/Преимущества компании ---- */
+
+/* ----Чем занимаемся ---- */
+
+/* ----/Чем занимаемся ---- */
+
+/* ----Наша команда---- */
+.employees {
+  background-color: #f5f4fa;
+}
+
+.employees-list {
+  background-color: var(--primery-bgc);
+}
+.employees-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.employees-profesion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* ----/Наша команда---- */
+
+/* ----Футер---- */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+.contact-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.footer-contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ----Футер---- */ ;
