@@ -34,8 +34,7 @@ body {
   color: var(--secondary-text-color);
 }
 .menu:hover,
-.menu:focus,
-.menu:active {
+.menu:focus {
   color: #2196f3;
 }
 .head-contacks {
@@ -47,6 +46,9 @@ body {
 }
 .head-contacks:hover,
 .head-contacks:focus {
+  color: #2196f3;
+}
+.head-studio {
   color: #2196f3;
 }
 .section-title {
@@ -161,6 +163,10 @@ body {
 /* ----Футер---- */
 
 /* ----PORTFOLIO---- */
+.head-portfolio {
+  color: #2196f3;
+}
+
 .btn-filter {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
