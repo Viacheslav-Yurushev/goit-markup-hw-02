@@ -102,7 +102,6 @@ body {
   color: var(--secondary-text-color);
 }
 .quality-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -129,7 +128,6 @@ body {
 }
 
 .employees-profesion {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -146,7 +144,6 @@ body {
 }
 .contact-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
@@ -154,7 +151,6 @@ body {
 
 .footer-contacts {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -192,7 +188,7 @@ body {
 }
 
 .porfolio-item {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
+/* ----PORTFOLIO---- */
